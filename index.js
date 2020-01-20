@@ -2,7 +2,7 @@
 //Please make sure that those endpoints allow crossdomain calls, or be sure
 //to host this site in the same domain as your API (and set `document.domain` correspondingly)
 var apis = {
-    runara_api : {
+    netorigin_api : {
         title: 'AEM DEV AUTHOR',
         url: 'https://author-ally-dev.adobecqms.net/login/favicon.ico'
     },
@@ -13,7 +13,7 @@ var apis = {
 };
 
 //Replace this with your status page project name
-var githubProject = 'runara/status';
+var githubProject = 'netorigin/status';
 
 //Github URLs
 var issuesApiUrl = 'https://api.github.com/repos/'+githubProject+'/issues?limit=100&sort=created&direction=desc&state=all'
